@@ -8,7 +8,7 @@ body {
     display: flex;
     text-align: center;
 } 
-
+/*Left Side*/
 #playerSide {
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@ body {
     margin-top: 4vh;
     font-size: 4vw;
 }
-
+/*Right Side*/
 #computerSide {
     display: flex;
     flex-direction: column;
@@ -32,7 +32,7 @@ body {
     margin-top: 4vh;
     font-size: 4vw;
 }
-
+/*center*/
 .center {
     display: flex;
     flex-direction: column;

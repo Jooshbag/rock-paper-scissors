@@ -1,7 +1,7 @@
 let playerScore = 0;
 let computerScore = 0;
 
-
+//getting button input
 document.getElementById('rock').onclick = playerRock;
 document.getElementById('paper').onclick = playerPaper;
 document.getElementById('scissors').onclick = playerScissors;
@@ -36,10 +36,11 @@ function playerScissors()
     playRound(playerSelection, computerSelection);
 }
 
+//function thats called after each button press
  function playRound(playerSelection, computerSelection) {
     document.getElementById('playerChoice').innerHTML = playerSelection.toUpperCase();
     document.getElementById('computerChoice').innerHTML = computerSelection.toUpperCase();
-
+    //result functions
     function win() {
         playerScore++;
         document.getElementById('player-score').innerHTML = playerScore;
@@ -55,7 +56,7 @@ function playerScissors()
     function tie(){
         document.getElementById('results').innerHTML = results;
     }
-
+    //grabbing results
     if (playerSelection == 'Rock' && computerSelection == 'Scissors') {
         results = 'Rock beats scissors. You win!';
         return win(); 
