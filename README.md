@@ -16,7 +16,7 @@ Technologies
     * Javascript
     * CSS
 
-List of features ready and TODOs for future development
+List of features
 ---------------------------------------------------
     * Button input for player's choice
     * Computer's choice randomly generated
